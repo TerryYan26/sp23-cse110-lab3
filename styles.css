@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+* {
+    color:yellowgreen; /* This is a defalut color */
+    background-color: rgb(78, 72, 76);/*background wil grey using rgb.*/
+    font-family: 'Chivo Mono', monospace;
+}
+h1{ 
+    color:#D1EDF2;/*h1 color*/
+    display: none;
+    
+    
+}
+nav a {
+    margin: 20rem 1rem 1rem;
+}
+h1.tittle{
+    text-align: center;
+    display: block;
+    position: static;
+
+}
+.none {
+    display: none;
+    
+  }
+
+  .block {
+    display: block;
+  }
+h2,h3{
+    color: hsl(120, 100%, 50%);
+    
+}
+p {
+    font-size: 16px;
+    width: 15cm;
+    height: 1.5em;
+    padding-left: 0.5em;
+  }
+  p.date{
+    border-style: dotted;
+    border-color: whitesmoke;
+    border-width: 5px;
+    border-radius: 25px;
+  }
+   fieldset {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem 2rem 2rem;
+    border: solid  2px ;
+    border-radius: 15px;
+    
+}
+img{
+    max-width: 100%;
+    min-width: 200px;
+
+}
+div{
+    padding-top: 2pt;
+    padding-right: 2pt;
+    padding-bottom: 2pt;
+    padding-left: 1em;
+    color:royalblue;
+    position: sticky;
+    
+}
+div p {
+    background-color: yellow;
+  }
+li{
+    padding: 2px 2px 2px 2px;
+    margin: 1px 2px 3px 4px;
+}
+li.per{
+    text-decoration: line-through;
+}
+a{
+    margin: auto ;
+}
+a:hover {
+    background-color: yellow;
+  }
+  a:active {
+    color: red;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .flex-item {
+    width: auto;
+    margin-bottom: auto;
+    padding: auto;
+    box-sizing: border-box;
+  }
+  
+  .div1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #list1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+}
+@media (max-width: 480px) {
+    #list1 {
+        display: block;
+    }
+      .header {
+        font-size: 12px;
+      }
+}
+a[target="_blank"] {
+    background-color: rebeccapurple;
+  }
+ol>li
+{
+    list-style: inside;
+
+}
+div ~ p {
+    color:blue;
+  }
+  h1 + p {
+    color: lightcyan;
+  }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSE 110 Lab2</title>
+ <meta charset="UTF-8">
+  <meta name="CSE 110" content="CSE 110 Lab2">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Ka Wing Yan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+            <h1 class="tittle">Meeting Minutes</h1>
+            <p class="date">Meeting Details: 12 April 2023 @ 12:00pm CSE Buliding E240</p>
+            <nav><a href="#Attendance" target="_blank">Attendance</a> |
+                <a href="#Agenda">Agenda</a> |
+                <a href="#New">New</a> |
+                <a href="#Nextdiscussion">Next time discussion</a> |
+            </nav>
+        </header>
+        <main>
+           
+            <section>
+                <div >
+                    <h2 class="Attendance" id="Attendance">Attendance</h2>
+                </div>
+                    <ul class="flex-container">
+                        <li class="flex-item">Terry Yan</li>
+                        <li class="flex-item">Peter</li>
+                        <li class="per">Jacky</li>
+                        <li class="per">Mary</li>
+                    </ul>
+                
+
+                <div class="div1">
+                    Absences
+                </div>
+                    <ol>
+                <li>Mary</li>
+                <li>Jacky</li>
+                    </ol>
+                
+            </section>
+            <hr>
+
+            <section>
+                <h2 class="Agenda"id="Agenda"> Agenda</h2>
+                <p> Discuss how to build up a <strong>HTML website</strong></p>
+                <h3>Write a site diagram</h3>
+                <p> We have to write a site diagram and it should have list <b>function</b>, <b>website style</b>,<b>website purpose</b>.</p>
+                <h3>Design a Wireframe</h3>
+                <p> It is about the UI design and draw the Wireframe first.</p>
+                <h3>Unfinished:</h3>
+                <span>
+                    
+                    <i>plan for schedule</i>
+                </span>
+            </section>
+            <hr>
+            <h3>Diagram</h3><br>
+            <img src="https://www.w3schools.com/js/pic_htmltree.gif" alt="JS"><br>
+            <audio controls>
+                <source src="source/sample1.mp3" >
+              Your browser does not support the audio element.
+              </audio><br>
+              <video width="560" height="315" controls>
+                <source src="source/sample.mp4" >
+              Your browser does not support the video tag.
+              </video><br>
+              
+            <h3 class="New"id="New">New:</h3>
+            <div class="div1">
+            <details class="details-container">
+                <summary>Terry </summary>
+               <p>Terry proposed a idea that create a real time clock in the website.And Adding a table to colletive customer feedback.</p>
+               
+              </details>
+            <details>
+                <summary>Peter </summary>
+               <p>Peter will design the UI design and draw a diagram about the website image.</p>
+            </details>
+        </div>
+        <div>
+            <ol id="list1">
+                <li>Create and share your meeting agenda as early as possible. At the very latest, you should share your meeting agenda an hour before the meeting time. This allows everyone to prepare for what’s going to happen. Your team can also relay questions or additional agenda items to you for a potential adjustment before the meeting. Besides, when your team members have a chance to properly prepare themselves, they’ll have a much easier time focusing during the meeting.</li>
+                <li>Link to any relevant pre-reading materials in advance. This can be the presentation deck, additional context, or a previous decision. Everyone arriving to the meeting will be on the same page and ready to move the discussion forward rather than asking a ton of questions that take up relevant time.</li>
+                <li>Assign facilitators for each agenda item. Remember that feeling of being called on in school when you didn’t know the answer? It’s a pretty terrible feeling that we’re sure you don’t want to evoke in your teammates. By assigning a facilitator for each agenda item before the meeting, you allow them to prepare for a quick rundown of the topic, questions, and feedback. </li>
+            </ol>
+        </div>
+
+            <hr>
+            <h3 class="Nextdiscussion"id="Nextdiscussion">Next time discussion:</h3>
+            <p>Fill in a form about next Meeting want to discuss</p>
+            <form action="/action_page.php">
+                <fieldset>
+                 <legend>Problem Details:</legend>
+                 <label for="Contact">Choose your Common Contact:</label>
+                 <input list="Contacts" name="Contact" id="Contact">
+                 <datalist id="Contacts">
+                 <option value="IG">
+                 <option value="FaceBook">
+                 <option value="email">
+                 <option value="whatsapp">
+                 <option value="Wechat">
+                 <option value="ETC(please add that in the comment)">
+  </datalist><br>
+                 <label for="lname">Name:</label>
+                 <input type="text" id="lname" name="lname"><br>
+                 <p>Please select your free date for next schedule:</p>
+                 <label for="timer">Date:</label>
+                <input type="date" id="timer"  min="2023-04-10" max="2024-07-31">
+                 <p>Please select your free time for this date:</p>
+                 <label for="option1">Time:</label><br>
+                 <input type="checkbox" id="option1" name="option1" value="option1">
+                 <label for="option1"> 8:00-9:00 am</label><br>
+                 <input type="checkbox" id="option2" name="option2" value="option2">
+                 <label for="option2"> 12:00-1:00pm</label><br>
+                 <input type="checkbox" id="option3" name="option3" value="option3">
+                 <label for="option3"> 3:00-4:00pm</label><br>
+                 <p>Are you enjoy this meeting?</p>
+                 <input type="radio" id="like" name="like" value="like">
+                 <label for="like">👍</label>
+                 <input type="radio" id="unlike" name="unlike" value="unlike">
+                 <label for="unlike">👎</label><br>
+               
+                 <p><label for="comment">Comment Box:</label></p>
+                 <textarea id="comment" name="comment" rows="4" cols="50">Leave your idea in here!  
+                 </textarea><br>
+
+                 
+                <label for="building">Next Discuss Building:</label><br>
+                <select name="building" id="building">
+                  <option value="CSE">CSE Building</option>
+                  <option value="Geisel">UCSD Geisel Libary</option>
+                  <option value="biolibary">UCSD Sally's Wong Libary</option>
+                  <option value="ETC">ETC(please add that in the comment)</option>
+                </select><br>
+                <button type="button">Submit</button>
+            </fieldset>
+               </form>
+        </main>
+        <footer>
+            <p>Author:<em>Terry</em></p>
+            <br>
+        </footer>
+</body>
+</html>
